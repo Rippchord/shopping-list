@@ -6,8 +6,9 @@ const itemList = document.getElementById('item-list');
 
 function addItem (e) {
     e.preventDefault();
+    
     const newItem = itemInput.value;
-    console.log(newItem)
+
 
     // Validate Input
     if (newItem == '') {
